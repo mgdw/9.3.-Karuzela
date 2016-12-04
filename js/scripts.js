@@ -7,8 +7,6 @@ $(document).ready(function(){
 			carouselList.animate({'marginLeft':-400}, 500, moveFirstSlide);
 			slideIndex++;
 			nextSlide(slideIndex);
-			console.log(slideIndex);
-			
 	});
 
 	$('.prev').click(function() {
@@ -17,7 +15,6 @@ $(document).ready(function(){
 			carouselList.animate({'marginLeft':0}, 500);
 			slideIndex--;
 			nextSlide(slideIndex);
-			console.log(slideIndex);
 	});
 
 	function moveFirstSlide () {
