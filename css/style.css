@@ -22,8 +22,8 @@ h1 {
 }
 
 #carousel, #carousel ul, #carousel ul li {
-	height: 300px;
-	width: 500px;
+	height: 350px;
+	width: 525px;
 }
 
 #carousel {
@@ -48,7 +48,7 @@ ul li {
 }
 
 span {
-	height: 300px;
+	height: 350px;
 	width: 70px;
 	position: absolute;
 	color: white;	
@@ -56,13 +56,13 @@ span {
 	font-size: 30px;
 	font-family: 'Merriweather Sans', sans-serif;
 	text-align: center;
-	line-height: 300px;
+	line-height: 350px;
 	opacity: 0.5;
 	cursor: pointer;
 }
 .next {
 	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(20, 20, 20, 0.5),rgba(0, 0, 0, 1));
-	left: 430px;
+	left: 455px;
 	top: 0;
 }
 

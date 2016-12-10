@@ -4,15 +4,15 @@ $(document).ready(function(){
 
 
 	$('.next').click(function() {
-			carouselList.animate({'marginLeft':-400}, 500, moveFirstSlide);
+			carouselList.animate({'marginLeft':-525}, 5000, moveFirstSlide);
 			slideIndex++;
 			nextSlide(slideIndex);
 	});
 
 	$('.prev').click(function() {
-			$('.slides').css('margin-left','-400px');
+			$('.slides').css('margin-left','-525px');
 			carouselList.find("li:first").before(carouselList.find("li:last"));
-			carouselList.animate({'marginLeft':0}, 500);
+			carouselList.animate({'marginLeft':0}, 5000);
 			slideIndex--;
 			nextSlide(slideIndex);
 	});
@@ -141,7 +141,7 @@ $(document).ready(function(){
 
 	});
 
-		$('#dot-3').click(function() {
+	$('#dot-3').click(function() {
 		switch (slideIndex) {
 		  case 4:
 		  	for (var i = 0; i < 4; i++) {
