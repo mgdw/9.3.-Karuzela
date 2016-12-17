@@ -44,11 +44,13 @@ $(document).ready(function(){
 		$(element).click(function() {
 			var diff = index + 1 - slideIndex;
 			if(diff > 0) {
-				// TODO: write for loop
-				nextSlide();
-			} else {
-				// TODO: write for loop
-				previousSlide();
+				for (var i = 0; i < diff; i++) {
+					nextSlide();
+				}
+			} else if (diff < 0) {
+				for (var i = 0; i > diff; i--) {
+					previousSlide();
+				}				
 			}
 		})
 	});
